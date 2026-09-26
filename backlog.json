@@ -1,6 +1,6 @@
 {
   "generated_on": "2026-09-26",
-  "generated_at": "2026-09-26T19:37:24Z",
+  "generated_at": "2026-09-26T19:40:29Z",
   "repo": "hydra-ecosystem/hydra",
   "summary": {
     "open_total": 67,
@@ -2169,6 +2169,19 @@
       "url": "https://github.com/hydra-ecosystem/hydra/issues/3436"
     },
     {
+      "number": 3454,
+      "title": "Improve provenance and default presentation of config composition errors",
+      "category": "Enhancement",
+      "category_emoji": "✨",
+      "status": "done",
+      "status_emoji": "✅",
+      "prs": [],
+      "created": "2026-09-17",
+      "updated": "2026-09-17",
+      "labels": [],
+      "url": "https://github.com/hydra-ecosystem/hydra/issues/3454"
+    },
+    {
       "number": 3456,
       "title": "[Bug] Casting sweeps drops tags and shuffle settings",
       "category": "Bug",
@@ -2225,19 +2238,6 @@
         "bug"
       ],
       "url": "https://github.com/hydra-ecosystem/hydra/issues/3458"
-    },
-    {
-      "number": 3454,
-      "title": "Improve provenance and default presentation of config composition errors",
-      "category": "Enhancement",
-      "category_emoji": "✨",
-      "status": "done",
-      "status_emoji": "✅",
-      "prs": [],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "labels": [],
-      "url": "https://github.com/hydra-ecosystem/hydra/issues/3454"
     }
   ],
   "updates": [
