@@ -1,6 +1,6 @@
 {
   "generated_on": "2026-09-26",
-  "generated_at": "2026-09-26T18:09:13Z",
+  "generated_at": "2026-09-26T19:37:24Z",
   "repo": "hydra-ecosystem/hydra",
   "summary": {
     "open_total": 67,
@@ -46,7 +46,7 @@
       {
         "status": "in progress",
         "emoji": "🔄",
-        "count": 0
+        "count": 1
       },
       {
         "status": "community PR",
@@ -61,16 +61,38 @@
       {
         "status": "not started",
         "emoji": "⬜",
-        "count": 65
+        "count": 64
       },
       {
         "status": "done",
         "emoji": "✅",
-        "count": 67
+        "count": 68
       }
     ]
   },
   "issues": [
+    {
+      "number": 3324,
+      "title": "Align bundled plugin dependencies with Hydra release lines",
+      "category": "Build",
+      "category_emoji": "🏗️",
+      "status": "in progress",
+      "status_emoji": "🔄",
+      "prs": [
+        {
+          "number": 3479,
+          "url": "https://github.com/hydra-ecosystem/hydra/pull/3479"
+        }
+      ],
+      "created": "2026-07-28",
+      "updated": "2026-07-28",
+      "labels": [
+        "maintenance",
+        "plugin",
+        "dependencies"
+      ],
+      "url": "https://github.com/hydra-ecosystem/hydra/issues/3324"
+    },
     {
       "number": 2453,
       "title": "[Feature Request] ConfigStore to warn or raise on name/group collision",
@@ -929,23 +951,6 @@
       "url": "https://github.com/hydra-ecosystem/hydra/issues/3321"
     },
     {
-      "number": 3324,
-      "title": "Align bundled plugin dependencies with Hydra release lines",
-      "category": "Build",
-      "category_emoji": "🏗️",
-      "status": "not started",
-      "status_emoji": "⬜",
-      "prs": [],
-      "created": "2026-07-28",
-      "updated": "2026-07-28",
-      "labels": [
-        "maintenance",
-        "plugin",
-        "dependencies"
-      ],
-      "url": "https://github.com/hydra-ecosystem/hydra/issues/3324"
-    },
-    {
       "number": 3326,
       "title": "Add a Reploy launcher for immutable, reproducible job execution",
       "category": "Enhancement",
@@ -1050,6 +1055,19 @@
       "url": "https://github.com/hydra-ecosystem/hydra/issues/3406"
     },
     {
+      "number": 3408,
+      "title": "Pin GitHub Actions to commit SHAs and enable Dependabot github-actions updates",
+      "category": "Enhancement",
+      "category_emoji": "✨",
+      "status": "not started",
+      "status_emoji": "⬜",
+      "prs": [],
+      "created": "2026-08-24",
+      "updated": "2026-08-24",
+      "labels": [],
+      "url": "https://github.com/hydra-ecosystem/hydra/issues/3408"
+    },
+    {
       "number": 3438,
       "title": "Improve type safety of Hydra logging configurations",
       "category": "Enhancement",
@@ -1091,19 +1109,6 @@
       "url": "https://github.com/hydra-ecosystem/hydra/issues/3445"
     },
     {
-      "number": 3454,
-      "title": "Improve provenance and default presentation of config composition errors",
-      "category": "Enhancement",
-      "category_emoji": "✨",
-      "status": "not started",
-      "status_emoji": "⬜",
-      "prs": [],
-      "created": "2026-09-17",
-      "updated": "2026-09-17",
-      "labels": [],
-      "url": "https://github.com/hydra-ecosystem/hydra/issues/3454"
-    },
-    {
       "number": 3461,
       "title": "Post-1.4: drop Python 3.10",
       "category": "Enhancement",
@@ -1117,17 +1122,17 @@
       "url": "https://github.com/hydra-ecosystem/hydra/issues/3461"
     },
     {
-      "number": 3408,
-      "title": "Pin GitHub Actions to commit SHAs and enable Dependabot github-actions updates",
+      "number": 3480,
+      "title": "Support OmegaConf escaped literal `???` values in Hydra 1.4",
       "category": "Enhancement",
       "category_emoji": "✨",
       "status": "not started",
       "status_emoji": "⬜",
       "prs": [],
-      "created": "2026-08-24",
-      "updated": "2026-08-24",
+      "created": "2026-09-26",
+      "updated": "2026-09-26",
       "labels": [],
-      "url": "https://github.com/hydra-ecosystem/hydra/issues/3408"
+      "url": "https://github.com/hydra-ecosystem/hydra/issues/3480"
     },
     {
       "number": 385,
@@ -2220,9 +2225,56 @@
         "bug"
       ],
       "url": "https://github.com/hydra-ecosystem/hydra/issues/3458"
+    },
+    {
+      "number": 3454,
+      "title": "Improve provenance and default presentation of config composition errors",
+      "category": "Enhancement",
+      "category_emoji": "✨",
+      "status": "done",
+      "status_emoji": "✅",
+      "prs": [],
+      "created": "2026-09-17",
+      "updated": "2026-09-17",
+      "labels": [],
+      "url": "https://github.com/hydra-ecosystem/hydra/issues/3454"
     }
   ],
   "updates": [
+    {
+      "ts": "2026-09-26T19:37:24Z",
+      "kind": "pr",
+      "issue": 3324,
+      "issue_url": "https://github.com/hydra-ecosystem/hydra/issues/3324",
+      "title": "Align bundled plugin dependencies with Hydra release lines",
+      "detail": "linked #3479"
+    },
+    {
+      "ts": "2026-09-26T19:37:24Z",
+      "kind": "closed",
+      "issue": 3454,
+      "issue_url": "https://github.com/hydra-ecosystem/hydra/issues/3454",
+      "title": "Improve provenance and default presentation of config composition errors"
+    },
+    {
+      "ts": "2026-09-26T19:37:24Z",
+      "kind": "status",
+      "issue": 3324,
+      "issue_url": "https://github.com/hydra-ecosystem/hydra/issues/3324",
+      "title": "Align bundled plugin dependencies with Hydra release lines",
+      "detail": "not started → in progress",
+      "pr": {
+        "number": 3479,
+        "url": "https://github.com/hydra-ecosystem/hydra/pull/3479"
+      }
+    },
+    {
+      "ts": "2026-09-26T19:37:24Z",
+      "kind": "new",
+      "issue": 3480,
+      "issue_url": "https://github.com/hydra-ecosystem/hydra/issues/3480",
+      "title": "Support OmegaConf escaped literal `???` values in Hydra 1.4"
+    },
     {
       "ts": "2026-09-26T18:09:13Z",
       "kind": "pr",
@@ -3792,40 +3844,6 @@
       "issue_url": "https://github.com/hydra-ecosystem/hydra/issues/802",
       "title": "Improve Hydra test coverage to 100%",
       "detail": "linked #3377"
-    },
-    {
-      "ts": "2026-08-12T06:35:38Z",
-      "kind": "status",
-      "issue": 802,
-      "issue_url": "https://github.com/hydra-ecosystem/hydra/issues/802",
-      "title": "Improve Hydra test coverage to 100%",
-      "detail": "not started → community PR",
-      "pr": {
-        "number": 3377,
-        "url": "https://github.com/hydra-ecosystem/hydra/pull/3377"
-      }
-    },
-    {
-      "ts": "2026-08-12T00:14:54Z",
-      "kind": "new",
-      "issue": 3375,
-      "issue_url": "https://github.com/hydra-ecosystem/hydra/issues/3375",
-      "title": "Show project homepages in the Hydra Landscape"
-    },
-    {
-      "ts": "2026-08-11T17:21:55Z",
-      "kind": "label",
-      "issue": 2759,
-      "issue_url": "https://github.com/facebookresearch/hydra/issues/2759",
-      "title": "[Feature Request] Dry run option for sweeper / launcher",
-      "detail": "removed \"triage\""
-    },
-    {
-      "ts": "2026-08-11T15:38:40Z",
-      "kind": "new",
-      "issue": 3369,
-      "issue_url": "https://github.com/facebookresearch/hydra/issues/3369",
-      "title": "Remove redundant setup-xcode step from macOS CI"
     }
   ]
 }
