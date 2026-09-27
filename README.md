@@ -1,3 +1,7 @@
+<p align="center">
+  <b>English</b> · <a href="README.zh.md">简体中文</a>
+</p>
+
 <p align="center"><img src="https://raw.githubusercontent.com/hydra-ecosystem/hydra/main/website/static/img/Hydra-Readme-logo2.svg" alt="logo" width="70%" /></p>
 
 <p align="center">
