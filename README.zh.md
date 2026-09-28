@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  <i>优雅配置复杂应用程序的高性能框架。</i>
+  <i>一个用于优雅配置复杂应用程序的框架。</i>
 </p>
 <p align="center">
   <i>访问 <a href="https://hydra.cc/">官方网站</a> 获取更多详细信息。</i>
